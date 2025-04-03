@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+      <link rel="stylesheet" href="./css/styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link href="./lib/animate/animate.min.css" rel="stylesheet">
+      <link href="./lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+      <link href="./lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+      <link href="./css/stylehero.css" rel="stylesheet">
+      <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <style>
+      .background-container {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-image: url('./images/2.png');
+            background-size: cover;
+            background-position: center;
+            filter: blur(3px);
+            z-index: -1; 
+        }
+    .navbar-custom {
+      background-color: rgb(186,12,47);
+    }
+    .navbar-custom .navbar-brand {
+      color: white;
+      margin-right: 2rem;
+    }
+    .navbar-custom .navbar-nav .nav-link {
+      color: white;
+    }
+    .navbar-custom .navbar-toggler-icon {
+      background-color:  rgb(186,12,47);
+    }
+    .navbar-custom .dropdown-menu .dropdown-item:hover {
+      background-color: rgb(186,12,47);
+      color: azure;
+    }
+    .text-blue{
+      color:rgb(186,12,47);
+    }
+  </style>
+</head>
+<body>
+  <div class="background-container"></div>
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="#">Nmims - Laundry</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./php/prices.php"><i class="fas fa-info-circle"></i> Prices</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./php/services.php"><i class="fas fa-circle"></i> Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./php/contact.php"><i class="fas fa-address-book"></i> Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i> Login/Signup
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./php/singin.php"><i class="fas fa-user"></i> User</a>
+            <a class="dropdown-item" href="./php/admin_signin.php"><i class="fas fa-user-shield"></i> Admin</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section>
+  <div class="container-fluid py-6 my-6 mt-0">
+     <div class="container">
+         <div class="row g-5 align-items-center">
+             <div class="col-lg-7 col-md-12">
+                 <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to NM - Laundry</small>
+                 <h1 class="display-1 mb-4 animated bounceInDown">Nmims <span class="text-blue" >laundry </span>Clean clothes, clear mind</h1>
+                 
+             </div>
+             <div class="col-lg-5 col-md-12">
+              <img src="./images/hero.png" class="img-fluid rounded animated zoomIn" alt="">
+             </div>
+         </div>
+     </div>
+ </div>
+ </section>
+
+ <script src="./js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+</html>
